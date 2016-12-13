@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.005" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+</layers>
+<board>
+<plain>
+<text x="12.065" y="5.969" size="1.016" layer="25" rot="R180">12V</text>
+<text x="14.224" y="6.477" size="0.8128" layer="25">3.3V SDA SCL GND</text>
+<text x="24.765" y="4.953" size="0.8128" layer="25">SDA SCL 1.8V GND</text>
+<wire x1="0.508" y1="11.811" x2="49.657" y2="11.811" width="0" layer="20"/>
+<wire x1="49.657" y1="11.811" x2="50.038" y2="11.303" width="0" layer="20"/>
+<wire x1="50.038" y1="11.303" x2="50.038" y2="7.112" width="0" layer="20"/>
+<wire x1="0.127" y1="0.127" x2="0.127" y2="11.303" width="0" layer="20"/>
+<wire x1="0.127" y1="11.303" x2="0.508" y2="11.811" width="0" layer="20"/>
+<wire x1="50.038" y1="7.112" x2="48.641" y2="5.715" width="0" layer="20"/>
+<text x="41.021" y="5.588" size="0.8128" layer="25">SDCR Arnold S.
+2016</text>
+<wire x1="48.641" y1="5.715" x2="46.228" y2="5.715" width="0" layer="20"/>
+<wire x1="46.228" y1="5.715" x2="40.513" y2="0" width="0" layer="20"/>
+<wire x1="40.513" y1="0" x2="0.127" y2="0.127" width="0" layer="20"/>
+<text x="35.306" y="3.937" size="0.8128" layer="25">GND 5V</text>
+<text x="9.017" y="5.969" size="1.016" layer="25" rot="R180">GND</text>
+</plain>
+<libraries>
+<library name="con-commcon">
+<description>&lt;b&gt;COMPACT PCI CONNECTORS&lt;/b&gt;&lt;p&gt;
+www.commcon.com&lt;p&gt;
+&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;TITLE&gt;Connectors for CompactPCI &lt;/TITLE&gt;
+&lt;/HEAD&gt;
+&lt;h2&gt;Competetive Cross Reference&lt;/h2&gt;&lt;p&gt;
+Below is a competitive cross reference for our most common female CPCI connectors. &lt;p&gt;
+ Please verify the accuracy of this cross by reviewing the specifications. &lt;p&gt;
+Click on the part numbers below to be taken to the competitive web site or to our catalog page.&lt;/p&gt;
+&lt;table border=1 cellspacing=0 cellpadding=0&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;
+      &lt;p&gt;&lt;font face="Arial" size="3"&gt;&lt;b&gt;Female&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;&lt;b&gt;Col.&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;&lt;b&gt;Pos.&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;&lt;b&gt;Shield (top)&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;
+      &lt;p&gt;&lt;font face="Arial" size="3"&gt;&lt;b&gt;AMP/Tyco&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;font face="Arial" size="3"&gt;&lt;b&gt;ERNI&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;font face="Arial" size="3"&gt;&lt;b&gt;COMM CON CONNECTORS&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;
+      &lt;p&gt;&lt;font face="Arial" size="3"&gt;Type A - J1&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;22&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;110&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;Yes&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.amp.com/AMP/bin/AMP.Connect?C=1&amp;amp;M=BYPN&amp;amp;I=13&amp;amp;PN=352068-1"&gt;&lt;font face="Arial" size="3"&gt;352068-1/4&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;064176&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84A-1"&gt;&lt;font face="Arial" size="3"&gt;1620S-110&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;No&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.amp.com/AMP/bin/AMP.Connect?C=1&amp;amp;M=BYPN&amp;amp;I=13&amp;amp;PN=100147-1"&gt;&lt;font face="Arial" size="3"&gt;100147-1/4&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;044146&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84A-1"&gt;&lt;font face="Arial" size="3"&gt;1620-110&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr bgcolor="#CCCCCC"&gt;
+    &lt;td width=103 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=140 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;
+      &lt;p&gt;&lt;font face="Arial" size="3"&gt;Type B - J2&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;22&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;110&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;Yes&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.amp.com/AMP/bin/AMP.Connect?C=1&amp;amp;M=BYPN&amp;amp;I=13&amp;amp;PN=352152-1"&gt;&lt;font face="Arial" size="3"&gt;352152-1/4&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;064785&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84B-1"&gt;&lt;font face="Arial" size="3"&gt;1630S-110&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;No&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;914797&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84B-1"&gt;&lt;font face="Arial" size="3"&gt;1630-110&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr bgcolor="#CCCCCC"&gt;
+    &lt;td width=103 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=140 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;
+      &lt;p&gt;&lt;font face="Arial" size="3"&gt;Type B - J3&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;19&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;95&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;Yes&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.amp.com/AMP/bin/AMP.Connect?C=1&amp;amp;M=BYPN&amp;amp;I=13&amp;amp;PN=352171-1"&gt;&lt;font face="Arial" size="3"&gt;352171-1/4&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;064784&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84C-1"&gt;&lt;font face="Arial" size="3"&gt;1630S-95&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;No&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;914794&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84C-1"&gt;&lt;font face="Arial" size="3"&gt;1630-95&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr bgcolor="#CCCCCC"&gt;
+    &lt;td width=103 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=140 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;
+      &lt;p&gt;&lt;font face="Arial, Helvetica, sans-serif" size="3"&gt;Type B&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;25&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;125&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;Yes&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.amp.com/AMP/bin/AMP.Connect?C=1&amp;amp;M=BYPN&amp;amp;I=13&amp;amp;PN=352069-1"&gt;&lt;font face="Arial" size="3"&gt;352069-1/4&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;064179&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84D-1"&gt;&lt;font face="Arial" size="3"&gt;1630S-125&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;No&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.amp.com/AMP/bin/AMP.Connect?C=1&amp;amp;M=BYPN&amp;amp;I=13&amp;amp;PN=100145-1"&gt;&lt;font face="Arial" size="3"&gt;100145-1/4&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;044767&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84D-1"&gt;&lt;font face="Arial" size="3"&gt;1630-125&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr bgcolor="#CCCCCC"&gt;
+    &lt;td width=103 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td width=82 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td width=140 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;
+      &lt;p&gt;&lt;font face="Arial" size="3"&gt;Type C&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;10&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;55&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;Yes&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.amp.com/AMP/bin/AMP.Connect?C=1&amp;amp;M=BYPN&amp;amp;I=13&amp;amp;PN=352115-1"&gt;&lt;font face="Arial" size="3"&gt;352115-1/4&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;064198&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84E-1"&gt;&lt;font face="Arial" size="3"&gt;1640S-55&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;No&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.amp.com/AMP/bin/AMP.Connect?C=1&amp;amp;M=BYPN&amp;amp;I=13&amp;amp;PN=100161-1"&gt;&lt;font face="Arial" size="3"&gt;100161-1/4&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;044145&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84E-1"&gt;&lt;font face="Arial" size="3"&gt;1640-55&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr bgcolor="#CCCCCC"&gt;
+    &lt;td width=103 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td width=82 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=140 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;
+      &lt;p&gt;&lt;font face="Arial" size="3"&gt;Type A tel&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;90&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;Yes&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.amp.com/AMP/bin/AMP.Connect?C=1&amp;amp;M=BYPN&amp;amp;I=13&amp;amp;PN=352359-1"&gt;&lt;font face="Arial" size="3"&gt;352359-1/4&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;104512&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84F-1"&gt;&lt;font face="Arial" size="3"&gt;1625S-90&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr bgcolor="#CCCCCC"&gt;
+    &lt;td width=103 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td width=82 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td width=140 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;
+      &lt;p&gt;&lt;font face="Arial" size="3"&gt;Type AB&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;19&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;95&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;Yes&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.amp.com/AMP/bin/AMP.Connect?C=1&amp;amp;M=BYPN&amp;amp;I=13&amp;amp;PN=646488-1"&gt;&lt;font face="Arial" size="3"&gt;646488-1/4&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;114810&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84G-1"&gt;&lt;font face="Arial" size="3"&gt;1635S-95&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;No&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.amp.com/AMP/bin/AMP.Connect?C=1&amp;amp;M=BYPN&amp;amp;I=13&amp;amp;PN=646572-1"&gt;&lt;font face="Arial" size="3"&gt;646572-1/4&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;114529&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84G-1"&gt;&lt;font face="Arial" size="3"&gt;1635-95&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr bgcolor="#CCCCCC"&gt;
+    &lt;td width=103 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td width=82 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td width=140 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;
+      &lt;p&gt;&lt;font face="Arial" size="3"&gt;Type AB&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;22&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;110&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;Yes&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.amp.com/AMP/bin/AMP.Connect?C=1&amp;amp;M=BYPN&amp;amp;I=13&amp;amp;PN=646489-1"&gt;&lt;font face="Arial" size="3"&gt;646489-1/4&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;114809&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84G-1"&gt;&lt;font face="Arial" size="3"&gt;1635S-110&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;No&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.amp.com/AMP/bin/AMP.Connect?C=1&amp;amp;M=BYPN&amp;amp;I=13&amp;amp;PN=646573-1"&gt;&lt;font face="Arial" size="3"&gt;646573-1/4&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;114933&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84G-1"&gt;&lt;font face="Arial" size="3"&gt;1635-110&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr bgcolor="#CCCCCC"&gt;
+    &lt;td width=103 valign=top bgcolor="#CCCCCC"&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td width=82 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td width=140 valign=top&gt;&amp;nbsp;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;
+      &lt;p&gt;&lt;font face="Arial" size="3"&gt;Type AB&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;25&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;125&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;Yes&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;114538&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84G-1"&gt;&lt;font face="Arial" size="3"&gt;1635S-125&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=103 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=54 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=48 valign=top&gt;&amp;nbsp; &lt;/td&gt;
+    &lt;td width=72 valign=top&gt;
+      &lt;p align=center&gt;&lt;font face="Arial" size="3"&gt;No&lt;/font&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=89 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.amp.com/AMP/bin/AMP.Connect?C=1&amp;amp;M=BYPN&amp;amp;I=13&amp;amp;PN=646574-1"&gt;&lt;font face="Arial" size="3"&gt;646574-1/4&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=82 valign=top&gt;
+      &lt;p&gt;&lt;a href="http://connect.ERNI.com/ermet.htd;v_Group,Female%20Connectors%20CompactPCI"&gt;&lt;font face="Arial" size="3"&gt;114154&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;td width=140 valign=top bgcolor="#ffffcc"&gt;
+      &lt;p&gt;&lt;a href="http://www.commcon.com/main/matchParts.html?page=84G-1"&gt;&lt;font face="Arial" size="3"&gt;1635-125&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;font size=-1&gt;The Amp -9 parts are the same as their -1 or -4 except it has a 
+Bellcore approved lubricant added. Contact us if you need this option. Note that 
+the pin row numbering of all connectors is in accordance with IEC 61076-4-101 
+and this is opposite of the CompactPCI specification. For example, row 1 in the 
+CPCI specs is the same as row 25 of the connector specs. &lt;/font&gt; 
+&lt;\HTML&gt;</description>
+<packages>
+<package name="1298-25">
+<description>&lt;b&gt;.800" BOARD SPACE 2mm CONNECTORS - HI TEMP&lt;/b&gt;&lt;p&gt;
+TWO ROW 2mm - STACKTHROUGH</description>
+<wire x1="-22.5" y1="-1.9" x2="-21.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-20.5" y1="-1.9" x2="-19.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="24.9" y1="-1.5" x2="24.9" y2="-0.5" width="0.254" layer="21"/>
+<wire x1="-23.5" y1="-1.9" x2="-23" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="-23" y1="-1.4" x2="-22.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-21.5" y1="-1.9" x2="-21" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="-21" y1="-1.4" x2="-20.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-19.5" y1="-1.9" x2="-19" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="-19" y1="-1.4" x2="-18.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-18.5" y1="-1.9" x2="-17.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-16.5" y1="-1.9" x2="-15.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-17.5" y1="-1.9" x2="-17" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="-17" y1="-1.4" x2="-16.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-15.5" y1="-1.9" x2="-15" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="-15" y1="-1.4" x2="-14.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-14.5" y1="-1.9" x2="-13.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-12.5" y1="-1.9" x2="-11.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-13.5" y1="-1.9" x2="-13" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="-13" y1="-1.4" x2="-12.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-11.5" y1="-1.9" x2="-11" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="-11" y1="-1.4" x2="-10.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-10.5" y1="-1.9" x2="-9.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-8.5" y1="-1.9" x2="-7.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-9.5" y1="-1.9" x2="-9" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="-9" y1="-1.4" x2="-8.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-7.5" y1="-1.9" x2="-7" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="-7" y1="-1.4" x2="-6.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-6.5" y1="-1.9" x2="-5.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-4.5" y1="-1.9" x2="-3.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-5.5" y1="-1.9" x2="-5" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="-5" y1="-1.4" x2="-4.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-3.5" y1="-1.9" x2="-3" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="-3" y1="-1.4" x2="-2.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-2.5" y1="-1.9" x2="-1.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-0.5" y1="-1.9" x2="0.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-1.5" y1="-1.9" x2="-1" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="-1" y1="-1.4" x2="-0.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="0.5" y1="-1.9" x2="1" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="1" y1="-1.4" x2="1.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="1.5" y1="-1.9" x2="2.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="3.5" y1="-1.9" x2="4.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="2.5" y1="-1.9" x2="3" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="3" y1="-1.4" x2="3.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="4.5" y1="-1.9" x2="5" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="5" y1="-1.4" x2="5.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="5.5" y1="-1.9" x2="6.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="7.5" y1="-1.9" x2="8.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="6.5" y1="-1.9" x2="7" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="7" y1="-1.4" x2="7.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="8.5" y1="-1.9" x2="9" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="9" y1="-1.4" x2="9.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="9.5" y1="-1.9" x2="10.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="11.5" y1="-1.9" x2="12.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="10.5" y1="-1.9" x2="11" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="11" y1="-1.4" x2="11.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="12.5" y1="-1.9" x2="13" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="13" y1="-1.4" x2="13.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="13.5" y1="-1.9" x2="14.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="15.5" y1="-1.9" x2="16.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="14.5" y1="-1.9" x2="15" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="15" y1="-1.4" x2="15.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="16.5" y1="-1.9" x2="17" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="17" y1="-1.4" x2="17.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="17.5" y1="-1.9" x2="18.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="19.5" y1="-1.9" x2="20.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="18.5" y1="-1.9" x2="19" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="19" y1="-1.4" x2="19.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="20.5" y1="-1.9" x2="21" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="21" y1="-1.4" x2="21.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="21.5" y1="-1.9" x2="22.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="23.5" y1="-1.9" x2="24.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="22.5" y1="-1.9" x2="23" y2="-1.4" width="0.254" layer="21"/>
+<wire x1="23" y1="-1.4" x2="23.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="24.5" y1="-1.9" x2="24.9" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="24.9" y1="-0.5" x2="24.4" y2="0" width="0.254" layer="21"/>
+<wire x1="24.4" y1="0" x2="24.9" y2="0.5" width="0.254" layer="21"/>
+<wire x1="24.5" y1="1.9" x2="23.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="24.9" y1="0.5" x2="24.9" y2="1.5" width="0.254" layer="21"/>
+<wire x1="24.9" y1="1.5" x2="24.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="23.5" y1="1.9" x2="23" y2="1.4" width="0.254" layer="21"/>
+<wire x1="22.5" y1="1.9" x2="21.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="23" y1="1.4" x2="22.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="21.5" y1="1.9" x2="21" y2="1.4" width="0.254" layer="21"/>
+<wire x1="21" y1="1.4" x2="20.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="20.5" y1="1.9" x2="19.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="19.5" y1="1.9" x2="19" y2="1.4" width="0.254" layer="21"/>
+<wire x1="19" y1="1.4" x2="18.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="18.5" y1="1.9" x2="17.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="17.5" y1="1.9" x2="17" y2="1.4" width="0.254" layer="21"/>
+<wire x1="17" y1="1.4" x2="16.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="16.5" y1="1.9" x2="15.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="15.5" y1="1.9" x2="15" y2="1.4" width="0.254" layer="21"/>
+<wire x1="15" y1="1.4" x2="14.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="14.5" y1="1.9" x2="13.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="13.5" y1="1.9" x2="13" y2="1.4" width="0.254" layer="21"/>
+<wire x1="13" y1="1.4" x2="12.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="12.5" y1="1.9" x2="11.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="11.5" y1="1.9" x2="11" y2="1.4" width="0.254" layer="21"/>
+<wire x1="11" y1="1.4" x2="10.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="10.5" y1="1.9" x2="9.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="9.5" y1="1.9" x2="9" y2="1.4" width="0.254" layer="21"/>
+<wire x1="9" y1="1.4" x2="8.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="8.5" y1="1.9" x2="7.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="7.5" y1="1.9" x2="7" y2="1.4" width="0.254" layer="21"/>
+<wire x1="7" y1="1.4" x2="6.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="6.5" y1="1.9" x2="5.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="5.5" y1="1.9" x2="5" y2="1.4" width="0.254" layer="21"/>
+<wire x1="5" y1="1.4" x2="4.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="4.5" y1="1.9" x2="3.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="3.5" y1="1.9" x2="3" y2="1.4" width="0.254" layer="21"/>
+<wire x1="3" y1="1.4" x2="2.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="2.5" y1="1.9" x2="1.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="1.5" y1="1.9" x2="1" y2="1.4" width="0.254" layer="21"/>
+<wire x1="1" y1="1.4" x2="0.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="0.5" y1="1.9" x2="-0.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-0.5" y1="1.9" x2="-1" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-1" y1="1.4" x2="-1.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-1.5" y1="1.9" x2="-2.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-2.5" y1="1.9" x2="-3" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-3" y1="1.4" x2="-3.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-3.5" y1="1.9" x2="-4.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-4.5" y1="1.9" x2="-5" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-5" y1="1.4" x2="-5.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-5.5" y1="1.9" x2="-6.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-6.5" y1="1.9" x2="-7" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-7" y1="1.4" x2="-7.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-7.5" y1="1.9" x2="-8.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-8.5" y1="1.9" x2="-9" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-9" y1="1.4" x2="-9.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-9.5" y1="1.9" x2="-10.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-10.5" y1="1.9" x2="-11" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-11" y1="1.4" x2="-11.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-11.5" y1="1.9" x2="-12.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-12.5" y1="1.9" x2="-13" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-13" y1="1.4" x2="-13.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-13.5" y1="1.9" x2="-14.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-14.5" y1="1.9" x2="-15" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-15" y1="1.4" x2="-15.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-15.5" y1="1.9" x2="-16.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-16.5" y1="1.9" x2="-17" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-17" y1="1.4" x2="-17.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-17.5" y1="1.9" x2="-18.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-18.5" y1="1.9" x2="-19" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-19" y1="1.4" x2="-19.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-19.5" y1="1.9" x2="-20.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-20.5" y1="1.9" x2="-21" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-21" y1="1.4" x2="-21.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-21.5" y1="1.9" x2="-22.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-22.5" y1="1.9" x2="-23" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-23" y1="1.4" x2="-23.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-24.9" y1="1.5" x2="-24.9" y2="0.5" width="0.254" layer="21"/>
+<wire x1="-23.5" y1="1.9" x2="-24.5" y2="1.9" width="0.254" layer="21"/>
+<wire x1="-24.5" y1="1.9" x2="-24.9" y2="1.5" width="0.254" layer="21"/>
+<wire x1="-24.9" y1="0.5" x2="-24.4" y2="0" width="0.254" layer="21"/>
+<wire x1="-24.4" y1="0" x2="-24.9" y2="-0.5" width="0.254" layer="21"/>
+<wire x1="-24.5" y1="-1.9" x2="-23.5" y2="-1.9" width="0.254" layer="21"/>
+<wire x1="-24.9" y1="-0.5" x2="-24.9" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="-24.9" y1="-1.5" x2="-24.5" y2="-1.9" width="0.254" layer="21"/>
+<pad name="A1" x="-24" y="-1" drill="0.508"/>
+<pad name="B1" x="-24" y="1" drill="0.508"/>
+<pad name="A2" x="-22" y="-1" drill="0.508"/>
+<pad name="B2" x="-22" y="1" drill="0.508"/>
+<pad name="A3" x="-20" y="-1" drill="0.508"/>
+<pad name="B3" x="-20" y="1" drill="0.508"/>
+<pad name="A4" x="-18" y="-1" drill="0.508"/>
+<pad name="B4" x="-18" y="1" drill="0.508"/>
+<pad name="A5" x="-16" y="-1" drill="0.508"/>
+<pad name="B5" x="-16" y="1" drill="0.508"/>
+<pad name="A6" x="-14" y="-1" drill="0.508"/>
+<pad name="B6" x="-14" y="1" drill="0.508"/>
+<pad name="A7" x="-12" y="-1" drill="0.508"/>
+<pad name="B7" x="-12" y="1" drill="0.508"/>
+<pad name="A8" x="-10" y="-1" drill="0.508"/>
+<pad name="B8" x="-10" y="1" drill="0.508"/>
+<pad name="A9" x="-8" y="-1" drill="0.508"/>
+<pad name="B9" x="-8" y="1" drill="0.508"/>
+<pad name="A10" x="-6" y="-1" drill="0.508"/>
+<pad name="B10" x="-6" y="1" drill="0.508"/>
+<pad name="A11" x="-4" y="-1" drill="0.508"/>
+<pad name="B11" x="-4" y="1" drill="0.508"/>
+<pad name="A12" x="-2" y="-1" drill="0.508"/>
+<pad name="B12" x="-2" y="1" drill="0.508"/>
+<pad name="A13" x="0" y="-1" drill="0.508"/>
+<pad name="B13" x="0" y="1" drill="0.508"/>
+<pad name="A14" x="2" y="-1" drill="0.508"/>
+<pad name="B14" x="2" y="1" drill="0.508"/>
+<pad name="A15" x="4" y="-1" drill="0.508"/>
+<pad name="B15" x="4" y="1" drill="0.508"/>
+<pad name="A16" x="6" y="-1" drill="0.508"/>
+<pad name="B16" x="6" y="1" drill="0.508"/>
+<pad name="A17" x="8" y="-1" drill="0.508"/>
+<pad name="B17" x="8" y="1" drill="0.508"/>
+<pad name="A18" x="10" y="-1" drill="0.508"/>
+<pad name="B18" x="10" y="1" drill="0.508"/>
+<pad name="A19" x="12" y="-1" drill="0.508"/>
+<pad name="B19" x="12" y="1" drill="0.508"/>
+<pad name="A20" x="14" y="-1" drill="0.508"/>
+<pad name="B20" x="14" y="1" drill="0.508"/>
+<pad name="A21" x="16" y="-1" drill="0.508"/>
+<pad name="B21" x="16" y="1" drill="0.508"/>
+<pad name="A22" x="18" y="-1" drill="0.508"/>
+<pad name="B22" x="18" y="1" drill="0.508"/>
+<pad name="A23" x="20" y="-1" drill="0.508"/>
+<pad name="B23" x="20" y="1" drill="0.508"/>
+<pad name="A24" x="22" y="-1" drill="0.508"/>
+<pad name="B24" x="22" y="1" drill="0.508"/>
+<pad name="A25" x="24" y="-1" drill="0.508"/>
+<pad name="B25" x="24" y="1" drill="0.508"/>
+<text x="-24.21" y="-3.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-14.05" y="-3.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="con-lstb">
+<description>&lt;b&gt;Pin Headers&lt;/b&gt;&lt;p&gt;
+Naming:&lt;p&gt;
+MA = male&lt;p&gt;
+# contacts - # rows&lt;p&gt;
+W = angled&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="MA08-1">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-9.525" y1="1.27" x2="-8.255" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-8.255" y1="1.27" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-0.635" x2="-8.255" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="0.635" x2="-6.985" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="1.27" x2="-5.715" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-5.715" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="-1.27" x2="-6.985" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="-1.27" x2="-7.62" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="0.635" x2="-10.16" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-9.525" y1="1.27" x2="-10.16" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="-0.635" x2="-9.525" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-8.255" y1="-1.27" x2="-9.525" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-4.445" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-1.27" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="5.715" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="1.27" x2="6.985" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="1.27" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-0.635" x2="6.985" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="-1.27" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="8.255" y1="1.27" x2="9.525" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="9.525" y1="1.27" x2="10.16" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="0.635" x2="10.16" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="-0.635" x2="9.525" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="8.255" y1="1.27" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-0.635" x2="8.255" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="9.525" y1="-1.27" x2="8.255" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-8.89" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="6" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="7" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="8" x="8.89" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-10.16" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-9.398" y="-2.921" size="1.27" layer="21" ratio="10">1</text>
+<text x="8.255" y="1.651" size="1.27" layer="21" ratio="10">8</text>
+<text x="-1.27" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
+<rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
+<rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
+</package>
+</packages>
+</library>
+<library name="pinhead">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X02">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="8mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="8mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="8mil"/>
+<param name="mdSmdVia" value="8mil"/>
+<param name="mdSmdSmd" value="8mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="8mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="10mil"/>
+<param name="msDrill" value="24mil"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="0"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="X3" library="con-commcon" package="1298-25" value="1298-25" x="25.0952" y="9.779" smashed="yes">
+<attribute name="OC_FARNELL" value="unknown" x="25.0952" y="9.779" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="25.0952" y="9.779" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="25.0952" y="9.779" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="25.0952" y="9.779" size="1.778" layer="27" display="off"/>
+</element>
+<element name="12V_RAIL" library="pinhead" package="1X02" value="" x="9.525" y="2.159" smashed="yes" rot="R180">
+<attribute name="VALUE" x="12.065" y="5.334" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="5V_RAIL" library="pinhead" package="1X02" value="" x="37.465" y="2.159" smashed="yes">
+<attribute name="VALUE" x="34.925" y="-1.016" size="1.27" layer="27"/>
+</element>
+<element name="I2C_PORTS" library="con-lstb" package="MA08-1" value="" x="24.765" y="2.159" smashed="yes" rot="R180">
+<attribute name="MPN" value="" x="24.765" y="2.159" size="0.8128" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="24.765" y="2.159" size="0.8128" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="24.765" y="2.159" size="0.8128" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="24.765" y="2.159" size="0.8128" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="26.035" y="5.08" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
+</elements>
+<signals>
+<signal name="N$2">
+<contactref element="X3" pad="B2"/>
+</signal>
+<signal name="N$3">
+<contactref element="X3" pad="B3"/>
+</signal>
+<signal name="N$4">
+<contactref element="X3" pad="B4"/>
+</signal>
+<signal name="N$5">
+<contactref element="X3" pad="B5"/>
+</signal>
+<signal name="N$6">
+<contactref element="X3" pad="B6"/>
+</signal>
+<signal name="N$7">
+<contactref element="X3" pad="B7"/>
+</signal>
+<signal name="N$8">
+<contactref element="X3" pad="B8"/>
+</signal>
+<signal name="N$9">
+<contactref element="X3" pad="B9"/>
+</signal>
+<signal name="N$10">
+<contactref element="X3" pad="B10"/>
+</signal>
+<signal name="N$11">
+<contactref element="X3" pad="B11"/>
+</signal>
+<signal name="N$12">
+<contactref element="X3" pad="B12"/>
+</signal>
+<signal name="N$13">
+<contactref element="X3" pad="B13"/>
+</signal>
+<signal name="3.3V">
+<contactref element="X3" pad="B15"/>
+<contactref element="I2C_PORTS" pad="8"/>
+<wire x1="15.875" y1="2.159" x2="15.875" y2="3.048" width="0.3048" layer="1"/>
+<wire x1="15.875" y1="3.048" x2="16.891" y2="4.064" width="0.3048" layer="1"/>
+<wire x1="16.891" y1="4.064" x2="23.241" y2="4.064" width="0.3048" layer="1"/>
+<wire x1="23.241" y1="4.064" x2="26.035" y2="6.858" width="0.3048" layer="1"/>
+<wire x1="26.035" y1="6.858" x2="26.035" y2="9.398" width="0.3048" layer="1"/>
+<wire x1="26.035" y1="9.398" x2="26.416" y2="9.779" width="0.3048" layer="1"/>
+<wire x1="26.416" y1="9.779" x2="28.0952" y2="9.779" width="0.3048" layer="1"/>
+<wire x1="28.0952" y1="9.779" x2="29.0952" y2="10.779" width="0.3048" layer="1"/>
+</signal>
+<signal name="SDA_3.3V_1">
+<contactref element="X3" pad="B16"/>
+<contactref element="I2C_PORTS" pad="7"/>
+<wire x1="18.415" y1="2.159" x2="18.415" y2="3.048" width="0.3048" layer="16"/>
+<wire x1="18.415" y1="3.048" x2="22.225" y2="6.858" width="0.3048" layer="16"/>
+<wire x1="22.225" y1="6.858" x2="28.956" y2="6.858" width="0.3048" layer="16"/>
+<wire x1="28.956" y1="6.858" x2="29.972" y2="7.874" width="0.3048" layer="16"/>
+<wire x1="29.972" y1="7.874" x2="29.972" y2="9.6558" width="0.3048" layer="16"/>
+<wire x1="29.972" y1="9.6558" x2="31.0952" y2="10.779" width="0.3048" layer="16"/>
+</signal>
+<signal name="SCL_3.3V_1">
+<contactref element="X3" pad="B17"/>
+<contactref element="I2C_PORTS" pad="6"/>
+<wire x1="33.0952" y1="10.779" x2="32.877" y2="10.779" width="0.3048" layer="16"/>
+<wire x1="32.877" y1="10.779" x2="32.131" y2="10.033" width="0.3048" layer="16"/>
+<wire x1="32.131" y1="10.033" x2="32.131" y2="7.239" width="0.3048" layer="16"/>
+<wire x1="32.131" y1="7.239" x2="30.607" y2="5.715" width="0.3048" layer="16"/>
+<wire x1="30.607" y1="5.715" x2="23.622" y2="5.715" width="0.3048" layer="16"/>
+<wire x1="23.622" y1="5.715" x2="20.955" y2="3.048" width="0.3048" layer="16"/>
+<wire x1="20.955" y1="3.048" x2="20.955" y2="2.159" width="0.3048" layer="16"/>
+</signal>
+<signal name="N$18">
+<contactref element="X3" pad="B18"/>
+</signal>
+<signal name="N$19">
+<contactref element="X3" pad="B19"/>
+</signal>
+<signal name="N$20">
+<contactref element="X3" pad="B20"/>
+</signal>
+<signal name="N$21">
+<contactref element="X3" pad="B21"/>
+</signal>
+<signal name="GND">
+<contactref element="X3" pad="A18"/>
+<contactref element="5V_RAIL" pad="1"/>
+<contactref element="I2C_PORTS" pad="5"/>
+<contactref element="I2C_PORTS" pad="1"/>
+<polygon width="0.8128" layer="16">
+<vertex x="0.508" y="11.43"/>
+<vertex x="49.657" y="11.43"/>
+<vertex x="49.657" y="7.493"/>
+<vertex x="48.387" y="6.096"/>
+<vertex x="45.974" y="6.096"/>
+<vertex x="44.704" y="4.826"/>
+<vertex x="40.259" y="0.508"/>
+<vertex x="4.191" y="0.635"/>
+<vertex x="0.508" y="0.508"/>
+</polygon>
+</signal>
+<signal name="N$23">
+<contactref element="X3" pad="B23"/>
+</signal>
+<signal name="N$24">
+<contactref element="X3" pad="B24"/>
+</signal>
+<signal name="N$25">
+<contactref element="X3" pad="B25"/>
+</signal>
+<signal name="N$27">
+<contactref element="X3" pad="A2"/>
+</signal>
+<signal name="N$28">
+<contactref element="X3" pad="A3"/>
+</signal>
+<signal name="N$33">
+<contactref element="X3" pad="A8"/>
+</signal>
+<signal name="N$34">
+<contactref element="X3" pad="A9"/>
+</signal>
+<signal name="N$35">
+<contactref element="X3" pad="A10"/>
+</signal>
+<signal name="GND_12VRAIL">
+<contactref element="X3" pad="A11"/>
+<contactref element="12V_RAIL" pad="2"/>
+<wire x1="8.255" y1="2.159" x2="8.255" y2="5.334" width="0.6096" layer="1"/>
+<wire x1="8.255" y1="5.334" x2="9.906" y2="6.985" width="0.6096" layer="1"/>
+<wire x1="9.906" y1="6.985" x2="19.812" y2="6.985" width="0.6096" layer="1"/>
+<wire x1="19.812" y1="6.985" x2="21.082" y2="8.255" width="0.6096" layer="1"/>
+<wire x1="21.082" y1="8.255" x2="21.082" y2="8.7658" width="0.6096" layer="1"/>
+<wire x1="21.082" y1="8.7658" x2="21.0952" y2="8.779" width="0.6096" layer="1"/>
+</signal>
+<signal name="N$37">
+<contactref element="X3" pad="A12"/>
+</signal>
+<signal name="SDA_1.8V_0">
+<contactref element="X3" pad="A14"/>
+<contactref element="I2C_PORTS" pad="4"/>
+<wire x1="27.0952" y1="8.779" x2="27.0952" y2="4.8702" width="0.3048" layer="1"/>
+<wire x1="27.0952" y1="4.8702" x2="26.162" y2="3.937" width="0.3048" layer="1"/>
+<wire x1="26.162" y1="3.937" x2="26.162" y2="2.286" width="0.3048" layer="1"/>
+<wire x1="26.162" y1="2.286" x2="26.035" y2="2.159" width="0.3048" layer="1"/>
+</signal>
+<signal name="SCL_1.8V_0">
+<contactref element="X3" pad="A15"/>
+<contactref element="I2C_PORTS" pad="3"/>
+<wire x1="29.0952" y1="8.779" x2="29.0952" y2="4.4572" width="0.3048" layer="1"/>
+<wire x1="29.0952" y1="4.4572" x2="28.575" y2="3.937" width="0.3048" layer="1"/>
+<wire x1="28.575" y1="3.937" x2="28.575" y2="2.159" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$44">
+<contactref element="X3" pad="A19"/>
+</signal>
+<signal name="N$45">
+<contactref element="X3" pad="A20"/>
+</signal>
+<signal name="N$47">
+<contactref element="X3" pad="A22"/>
+</signal>
+<signal name="N$48">
+<contactref element="X3" pad="A23"/>
+</signal>
+<signal name="1.8V">
+<contactref element="X3" pad="A16"/>
+<contactref element="I2C_PORTS" pad="2"/>
+<wire x1="31.0952" y1="8.779" x2="31.0952" y2="2.1788" width="0.3048" layer="1"/>
+<wire x1="31.0952" y1="2.1788" x2="31.115" y2="2.159" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$1">
+<contactref element="X3" pad="B14"/>
+</signal>
+<signal name="12V">
+<contactref element="X3" pad="A13"/>
+<contactref element="12V_RAIL" pad="1"/>
+<wire x1="10.795" y1="2.159" x2="10.795" y2="4.826" width="0.6096" layer="1"/>
+<wire x1="10.795" y1="4.826" x2="11.43" y2="5.461" width="0.6096" layer="1"/>
+<wire x1="11.43" y1="5.461" x2="22.479" y2="5.461" width="0.6096" layer="1"/>
+<wire x1="22.479" y1="5.461" x2="25.019" y2="8.001" width="0.6096" layer="1"/>
+<wire x1="25.019" y1="8.001" x2="25.019" y2="8.7028" width="0.6096" layer="1"/>
+<wire x1="25.019" y1="8.7028" x2="25.0952" y2="8.779" width="0.6096" layer="1"/>
+</signal>
+<signal name="N$14">
+<contactref element="X3" pad="A25"/>
+<contactref element="5V_RAIL" pad="2"/>
+<wire x1="38.735" y1="2.159" x2="38.735" y2="5.461" width="0.8128" layer="1"/>
+<wire x1="38.735" y1="5.461" x2="40.513" y2="7.239" width="0.8128" layer="1"/>
+<wire x1="40.513" y1="7.239" x2="48.514" y2="7.239" width="0.8128" layer="1"/>
+<wire x1="48.514" y1="7.239" x2="49.149" y2="7.874" width="0.8128" layer="1"/>
+<wire x1="49.149" y1="7.874" x2="49.149" y2="8.7252" width="0.8128" layer="1"/>
+<wire x1="49.149" y1="8.7252" x2="49.0952" y2="8.779" width="0.8128" layer="1"/>
+</signal>
+<signal name="N$15">
+<contactref element="X3" pad="A24"/>
+</signal>
+<signal name="N$16">
+<contactref element="X3" pad="B22"/>
+</signal>
+<signal name="N$17">
+<contactref element="X3" pad="A17"/>
+</signal>
+<signal name="N$22">
+<contactref element="X3" pad="A21"/>
+</signal>
+</signals>
+</board>
+</drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
+</eagle>
